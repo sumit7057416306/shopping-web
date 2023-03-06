@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Inter", sans-serif;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  background-color: black;
+  color: white;
+}
+
+.navbar .links {
+  display: flex;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  position: sticky;
+  z-index: 100;
+  top: 0;
+
+  background-color: black;
+  border-bottom: 1px solid white;
+  padding: 1rem;
+  font-size: 1rem;
+}
+
+nav .brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+nav .nav-items a {
+  margin: 0 1rem;
+}
+
+a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #ffff;
+}
+
+.signup {
+  margin: 20px 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.signup-title {
+  margin: 20px 0 20px 0;
+  font-size: 30px;
+}
+
+div input {
+  margin: 10px 0 10px 0;
+  padding: 5px;
+  width: 90vw;
+}
+.btn {
+  width: 100px;
+  height: 30px;
+  background-color: black;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+.greet p {
+  padding: 10px 0px;
+}
